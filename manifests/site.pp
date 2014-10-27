@@ -12,6 +12,7 @@ filebucket { 'main':
 File { backup => 'main' }
 
 node /puppetca/ {
+  notify { 'roles::puppet::mom': }
   include roles::puppet::mom
 }
 
