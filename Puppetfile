@@ -1,5 +1,6 @@
-mod "puppet_master", :git => "https://github.com/fvoges/puppet_master.git", :ref => "newpe"
+#mod "puppet_master", :git => "https://github.com/fvoges/puppet_master.git", :ref => "newpe"
 mod "roles", :git => "https://github.com/fvoges/test-puppet-roles.git"
+mod "profiles", :git => "https://github.com/fvoges/test-puppet-profiles.git"
 mod "zack/r10k"
 mod "puppetlabs/stdlib"
 mod "puppetlabs/concat"
